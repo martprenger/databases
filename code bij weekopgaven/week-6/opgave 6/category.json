@@ -1,0 +1,16 @@
+{"_id" : 1, "name" : "Action"}
+{"_id" : 2, "name" : "Animation"}
+{"_id" : 3, "name" : "Children"}
+{"_id" : 4, "name" : "Classics"}
+{"_id" : 5, "name" : "Comedy"}
+{"_id" : 6, "name" : "Documentary"}
+{"_id" : 7, "name" : "Drama"}
+{"_id" : 8, "name" : "Family"}
+{"_id" : 9, "name" : "Foreign"}
+{"_id" : 10, "name" : "Games"}
+{"_id" : 11, "name" : "Horror"}
+{"_id" : 12, "name" : "Music"}
+{"_id" : 13, "name" : "New"}
+{"_id" : 14, "name" : "Sci-Fi"}
+{"_id" : 15, "name" : "Sports"}
+{"_id" : 16, "name" : "Travel"}

@@ -1,0 +1,72 @@
+{
+    "name": "Ryzen 5 3400G", 
+    "manufacturer": "AMD",
+    "freq_GHz": 3.4,
+    "nr_cores": 4,
+    "integrated_gx": "Radeon Vega 11",
+    "socket": "AM4",
+    "architecture": "Zen+",
+    "caches": [{"L1": "i:4x32k, d:4x64k"}, {"L2": "4x512k"}, {"L3": "1x4M"}],
+    "SMT": true,
+    "includes_cooler": true
+}
+{
+    "name": "Ryzen 5 3600",
+    "manufacturer": "AMD",
+    "freq_GHz": 3.6,
+    "nr_cores": 6,
+    "integrated_gx": "None",
+    "socket": "AM4",
+    "architecture": "Zen 2",
+    "caches": [{"L1": "i:6x32k, d:6x64k"}, {"L2": "6x512k"}, {"L3": "2x16M"}],
+    "SMT": true,
+    "includes_cooler": true
+}
+{
+    "name": "Ryzen 7 3700X",
+    "manufacturer": "AMD",
+    "freq_GHz": 3.6,
+    "nr_cores": 8,
+    "integrated_gx": "None",
+    "socket": "AM4",
+    "architecture": "Zen 2",
+    "caches": [{"L1": "i:8x32k, d:8x64k"}, {"L2": "8x512k"}, {"L3": "2x16M"}],
+    "SMT": true,
+    "includes_cooler": true
+}
+{
+    "name": "Ryzen 9 5900X",
+    "manufacturer": "AMD",
+    "freq_GHz": 3.7,
+    "nr_cores": 12,
+    "integrated_gx": "None",
+    "socket": "AM4",
+    "architecture": "Zen 3",
+    "caches": [{"L1": "i:12x32k, d:12x32k"}, {"L2": "12x512k"}, {"L3": "2x32M"}],
+    "SMT": true,
+    "includes_cooler": true
+}
+{
+    "name": "Core i7-9700K",
+    "manufacturer": "Intel",
+    "freq_GHz": 3.6,
+    "nr_cores": 8,
+    "integrated_gx": "Intel UHD Graphics 630",
+    "socket": "LGA1151",
+    "architecture": "Coffee Lake Refresh",
+    "caches": [{"L1": "i:8x32k, d:8x32k"}, {"L2": "8x256k"}, {"L3": "8x1.5M"}],
+    "SMT": false,
+    "includes_cooler": false
+}
+{
+    "name": "Core i9-10900K",
+    "manufacturer": "Intel",
+    "freq_GHz": 3.7,
+    "nr_cores": 10,
+    "integrated_gx": "Intel UHD Graphics 630",
+    "socket": "LGA1200",
+    "architecture": "Comet Lake",
+    "caches": [{"L1": "i:10x32k, d:10x32k"}, {"L2": "10x256k"}, {"L3": "1x20M"}],
+    "SMT": true,
+    "includes_cooler": false
+}

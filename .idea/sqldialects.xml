@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/sakila/sakila-data.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/sakila/sakila-schema.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sakila/sakila.mwb" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/week2/opgave3.sql" dialect="GenericSQL" />
+  </component>
+</project>

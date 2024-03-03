@@ -1,0 +1,25 @@
+{
+   "name": "De Kostery",
+   "type": "Lunchroom",
+   "location": { "type": "Point", "coordinates": [ 6.568609597881741, 53.219376312899456 ] }
+}
+{
+   "name": "Le Marronnier",
+   "type": "Frans/Italiaans Restaurant",
+   "location": { "type": "Point", "coordinates": [ 6.561448742999689, 53.22877809794266 ] }
+}
+{
+   "name": "De Padang",
+   "type": "Eetcafé (Noord-Afrikaans)",
+   "location": { "type": "Point", "coordinates": [ 6.563701798404936, 53.2285242476955 ] }
+}
+{
+   "name": "De Grote Frederik",
+   "type": "Frans Restaurant",
+   "location": { "type": "Point", "coordinates": [ 6.58112218643228, 53.21087152554713 ] }
+}
+{
+   "name": "Da Vinci",
+   "type": "Italiaans Restaurant",
+   "location": { "type": "Point", "coordinates": [ 6.5676294988175234, 53.22209357393359 ] }
+}
