@@ -45,6 +45,7 @@ create table thema_module
 (
     thema_ID int not null,
     module_ID int not null,
+    primary key (thema_ID, module_ID),
     foreign key (thema_ID) references HBO_instelling.thema(thema_ID),
     foreign key (module_ID) references HBO_instelling.module(module_ID)
 );
@@ -65,6 +66,7 @@ create table module_toets
 (
     module_ID int not null,
     toets_ID int not null,
+    primary key (module_ID, toets_ID),
     foreign key (module_ID) references HBO_instelling.module(module_ID),
     foreign key (toets_ID) references HBO_instelling.toets(toets_ID)
 );

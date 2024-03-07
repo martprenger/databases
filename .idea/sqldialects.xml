@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/sakila/sakila-schema.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/sakila/sakila.mwb" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/week2/opgave3.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/week2/opgave6e.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/week2/opgave6f.sql" dialect="GenericSQL" />
   </component>
 </project>
