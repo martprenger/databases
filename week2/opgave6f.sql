@@ -1,21 +1,21 @@
 -- 1. Hoeveel minuten (totaal) is een lied gespeeld op Spotify de afgelopen maand
-SELECT SUM(speel_lengte) as totaal_minuten
-FROM speel_geschiedenis
-WHERE speel_datum >= DATE_SUB(CURRENT_DATE, INTERVAL 1 MONTH);
+select sum(speel_lengte) as totaal_minuten
+from speel_geschiedenis
+where speel_datum >= date_sub(current_date, interval 1 month);
 
 -- 2. Geef een top 10 van meest gespeelde albums
-SELECT a.naam as album_naam, COUNT(s.track_ID) as speel_count
-FROM album a
-         JOIN album_track at ON a.album_ID = at.album_ID
-    JOIN speel_geschiedenis s ON at.track_ID = s.track_ID
-GROUP BY a.album_ID
-ORDER BY speel_count DESC
-    LIMIT 10;
+select a.naam as album_naam, count(s.track_ID) as speel_count
+from album a
+         join album_track at on a.album_ID = at.album_ID
+    join speel_geschiedenis s on at.track_ID = s.track_ID
+group by a.album_ID
+order by speel_count desc
+    limit 10;
 
 -- 3. Geef een top 10 van meest gespeelde tracks
-SELECT t.naam as track_naam, COUNT(s.track_ID) as speel_count
-FROM track t
-         JOIN speel_geschiedenis s ON t.track_ID = s.track_ID
-GROUP BY t.track_ID
-ORDER BY speel_count DESC
-    LIMIT 10;
+select t.naam as track_naam, count(s.track_ID) as speel_count
+from track t
+         join speel_geschiedenis s on t.track_ID = s.track_ID
+group by t.track_ID
+order by speel_count desc
+    limit 10;

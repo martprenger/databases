@@ -1,5 +1,5 @@
 -- Sample data for 'gebruiker' table
-INSERT INTO gebruiker (naam, email, bankrekening) VALUES
+insert into gebruiker (naam, email, bankrekening) values
     ('John Doe', 'john.doe@email.com', '1234567890'),
     ('Jane Smith', 'jane.smith@email.com', '9876543210'),
     ('Bob Johnson', 'bob.johnson@email.com', '5555555555'),
@@ -12,7 +12,7 @@ INSERT INTO gebruiker (naam, email, bankrekening) VALUES
     ('Sophie Miller', 'sophie.miller@email.com', '3333333333');
 
 -- Sample data for 'abonoment' table
-INSERT INTO abonoment (type, betalende_gebruiker_ID, aantal_gebruikers) VALUES
+insert into abonoment (type, betalende_gebruiker_ID, aantal_gebruikers) values
     ('Premium', 1, 1),
     ('Family', 2, 4),
     ('Student', 3, 1),
@@ -27,7 +27,7 @@ INSERT INTO abonoment (type, betalende_gebruiker_ID, aantal_gebruikers) VALUES
 -- Continue adding sample data for other tables...
 
 -- Sample data for 'genre' table
-INSERT INTO genre (naam, description) VALUES
+insert into genre (naam, description) values
     ('Pop', 'Popular music with catchy tunes'),
     ('Rock', 'Music with a strong beat and guitar-based'),
     ('Hip-Hop', 'Urban music with a rhythmic and rhyming speech'),
@@ -40,7 +40,7 @@ INSERT INTO genre (naam, description) VALUES
     ('Indie', 'Independent music not produced by major record labels');
 
 -- Sample data for 'artiest' table
-INSERT INTO artiest (naam) VALUES
+insert into artiest (naam) values
     ('Ed Sheeran'),
     ('Beyoncé'),
     ('Drake'),
@@ -53,7 +53,7 @@ INSERT INTO artiest (naam) VALUES
     ('Arctic Monkeys');
 
 -- Sample data for 'album' table
-INSERT INTO album (naam, type, release_date, genre_ID) VALUES
+insert into album (naam, type, release_date, genre_ID) values
     ('÷ (Divide)', 'Studio Album', '2017-03-03', 1),
     ('Lemonade', 'Studio Album', '2016-04-23', 1),
     ('Scorpion', 'Studio Album', '2018-06-29', 3),
@@ -68,7 +68,7 @@ INSERT INTO album (naam, type, release_date, genre_ID) VALUES
 -- Continue adding sample data for other tables...
 
 -- Sample data for 'track' table
-INSERT INTO track (naam, track_nummer, duur, is_playable) VALUES
+insert into track (naam, track_nummer, duur, is_playable) values
     ('Shape of You', 1, 235, true),
     ('Formation', 1, 255, true),
     ('Gods Plan', 1, 198, true),
@@ -81,7 +81,7 @@ INSERT INTO track (naam, track_nummer, duur, is_playable) VALUES
     ('Do I Wanna Know?', 1, 272, true);
 
 -- Sample data for 'album_track' table
-INSERT INTO album_track (album_ID, track_ID) VALUES
+insert into album_track (album_ID, track_ID) values
     (1, 1),
     (2, 1),
     (3, 1),
@@ -94,7 +94,7 @@ INSERT INTO album_track (album_ID, track_ID) VALUES
     (10, 1);
 
 -- Sample data for 'album_artiest' table
-INSERT INTO album_artiest (album_ID, artiest_ID) VALUES
+insert into album_artiest (album_ID, artiest_ID) values
     (1, 1),
     (2, 2),
     (3, 3),
@@ -107,7 +107,7 @@ INSERT INTO album_artiest (album_ID, artiest_ID) VALUES
     (10, 10);
 
 -- Sample data for 'track_artiest' table
-INSERT INTO track_artiest (track_ID, artiest_ID) VALUES
+insert into track_artiest (track_ID, artiest_ID) values
     (1, 1),
     (2, 2),
     (3, 3),
@@ -120,7 +120,7 @@ INSERT INTO track_artiest (track_ID, artiest_ID) VALUES
     (10, 10);
 
 -- Sample data for 'playlist' table
-INSERT INTO playlist (naam, omschrijving, eigenaar_ID, genre_ID, is_public) VALUES
+insert into playlist (naam, omschrijving, eigenaar_ID, genre_ID, is_public) values
     ('Top Hits', 'The best of the charts', 1, 1, true),
     ('Chill Vibes', 'Relaxing tunes for any mood', 2, 5, true),
     ('Workout Jams', 'Energizing tracks for your workout', 3, 3, true),
@@ -133,7 +133,7 @@ INSERT INTO playlist (naam, omschrijving, eigenaar_ID, genre_ID, is_public) VALU
     ('Country Roads', 'Journey through country music', 10, 6, true);
 
 -- Sample data for 'playlist_track' table
-INSERT INTO playlist_track (playlist_ID, track_ID) VALUES
+insert into playlist_track (playlist_ID, track_ID) values
     (1, 1),
     (1, 2),
     (1, 3),
@@ -146,7 +146,7 @@ INSERT INTO playlist_track (playlist_ID, track_ID) VALUES
     (4, 10);
 
 -- Sample data for 'speel_geschiedenis' table
-INSERT INTO speel_geschiedenis (gebruiker_ID, track_ID, speel_lengte, speel_datum) VALUES
+insert into speel_geschiedenis (gebruiker_ID, track_ID, speel_lengte, speel_datum) values
     (1, 1, 235, '2024-03-01'),
     (2, 2, 255, '2024-03-02'),
     (3, 3, 198, '2024-03-03'),
@@ -162,7 +162,7 @@ INSERT INTO speel_geschiedenis (gebruiker_ID, track_ID, speel_lengte, speel_datu
 
 
 -- Sample data for 'library' table
-INSERT INTO library (gebruiker_ID, link_ID, type) VALUES
+insert into library (gebruiker_ID, link_ID, type) values
     (1, 1, 'Track'),
     (1, 2, 'Track'),
     (2, 3, 'Track'),
